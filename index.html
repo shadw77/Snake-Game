@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="jquery-3.7.0.js"></script>
+    <style>
+      * {
+        /* background-color: rgb(36, 78, 85); */
+        padding: 0;
+        margin: 0;
+      }
+      #appleNum,
+      #score {
+        font-size: 50px;
+      }
+      #main {
+        margin: 5%;
+      }
+      #eat {
+        position: relative;
+        bottom: 150px;
+        left: 850px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <img src="assets/apple.png" alt="" />
+      <label id="appleNum">0</label>
+      <img src="assets/trophy.png" alt="" />
+      <label id="score">0</label>
+      <div>
+        <img id="eat" src="assets/apple.png" alt="" />
+        <canvas width="1000" height="520"> </canvas>
+      </div>
+    </div>
+    <script src="file.js"></script>
+  </body>
+</html>
